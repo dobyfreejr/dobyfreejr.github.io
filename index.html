@@ -1,47 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Website</title>
+	<title>Cyber Zone</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 	<header>
-		<h1>Welcome to My Website</h1>
 		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
+			<div class="container">
+				<div class="logo">
+					<a href="#">My Portfolio</a>
+				</div>
+				<div class="menu">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+			</div>
 		</nav>
+		<div class="hero">
+			<div class="container">
+				<h1>Kyle Barbre</h1>
+				<h2>System Administrator</h2>
+				<a href="#" class="btn">View Portfolio</a>
+			</div>
+		</div>
 	</header>
 	<main>
-		<section>
-			<h2>About Me</h2>
-			<p>My name is John Doe and I am a web developer. I enjoy building websites and learning new technologies.</p>
+		<section class="about">
+			<div class="container">
+				<h2>About Me</h2>
+				<p>My name is Kyle Barbre and I am a web developer with over 5 years of experience. I specialize in creating responsive websites using HTML, CSS, and JavaScript.</p>
+				<a href="#" class="btn">Learn More</a>
+			</div>
 		</section>
-		<section>
-			<h2>My Portfolio</h2>
-			<ul>
-				<li><a href="#">Project 1</a></li>
-				<li><a href="#">Project 2</a></li>
-				<li><a href="#">Project 3</a></li>
-			</ul>
+		<section class="services">
+			<div class="container">
+				<h2>Services</h2>
+				<div class="row">
+					<div class="col">
+						<div class="icon">
+							<i class="fas fa-code"></i>
+						</div>
+						<h3>Web Development</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+					<div class="col">
+						<div class="icon">
+							<i class="fas fa-paint-brush"></i>
+						</div>
+						<h3>Web Design</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+					<div class="col">
+						<div class="icon">
+							<i class="fas fa-mobile-alt"></i>
+						</div>
+						<h3>Responsive Design</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
 		</section>
-		<section>
-			<h2>Contact Me</h2>
-			<form>
-				<label for="name">Name:</label>
-				<input type="text" id="name" name="name"><br><br>
-				<label for="email">Email:</label>
-				<input type="email" id="email" name="email"><br><br>
-				<label for="message">Message:</label>
-				<textarea id="message" name="message"></textarea><br><br>
-				<input type="submit" value="Submit">
-			</form>
-		</section>
-	</main>
-	<footer>
-		<p>&copy; 2023 My Website. All rights reserved.</p>
-	</footer>
-</body>
-</html>
+		<section class="portfolio">
+			<div class="container">
+				<h2>Portfolio</h2>
+				<div class="row">
+					<div class="col">
+						<a href="#">
+							<img src="img/portfolio-1.jpg" alt="Project 1">
+							<h3>Project 1</h3>
+						</a>
+					</
