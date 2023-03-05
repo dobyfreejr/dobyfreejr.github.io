@@ -1,135 +1,140 @@
+To make the header full size and adjust the image size, you can use the following CSS:
+
 /* Global styles */
 body {
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #333;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  
-  /* Header styles */
-  header {
-    height: 100px;
-    background-color: #333;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-  }
-  
-  header img {
-    height: 60px;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-  }
-  
-  nav ul li {
-    margin: 0 10px;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-  
-  .hero {
-    background: url('img/istockphoto-1331943958-170667a.jpg') center center/cover no-repeat;
-    height: calc(100vh - 100px);
-  }
-  
-  .hero h1,
-  .hero h2,
-  .hero .btn {
-    color: #fff;
-    text-align: center;
-  }
-  
-  .hero h1 {
-    margin-top: 0;
-    font-size: 4rem;
-  }
-  
-  .hero h2 {
-    margin-top: 0;
-    font-size: 2rem;
-  }
-  
-  .hero .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #0074D9;
-    color: #fff;
-    border-radius: 5px;
-    text-decoration: none;
-    margin-top: 20px;
-  }
-  
-  /* About section styles */
-  .about {
-    padding: 100px 0;
-    background-color: #f1f1f1;
-    text-align: center;
-  }
-  
-  .about h2 {
-    margin-bottom: 20px;
-  }
-  
-  .about p {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
-  .about .btn {
-    margin-top: 20px;
-  }
-  
-  /* Services section styles */
-  .services {
-    padding: 100px 0;
-    text-align: center;
-  }
-  
-  .services h2 {
-    margin-bottom: 20px;
-  }
-  
-  .services .row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  
-  .services .col {
-    width: 300px;
-    margin: 0 20px;
-    text-align: left;
-  }
-  
-  .services .col h3 {
-    margin-top: 0;
-  }
-  
-  .services .col p {
-    margin-bottom: 20px;
-  }
-  
-  .services .icon {
-    font-size: 3rem;
-    margin-bottom: 20px;
+margin: 0;
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+line-height: 1.5;
+color: #333;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+/* Header styles */
+header {
+height: 100px;
+background-color: #333;
+color: #fff;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 20px;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+}
+
+header img {
+height: 100%; /* change height to 100% /
+object-fit: contain; / maintain aspect ratio */
+}
+
+nav ul {
+list-style: none;
+display: flex;
+}
+
+nav ul li {
+margin: 0 10px;
+}
+
+nav ul li a {
+color: #fff;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+.hero {
+background: url('img/istockphoto-1331943958-170667a.jpg') center center/cover no-repeat;
+height: calc(100vh - 100px);
+background-size: cover; /* make sure image covers entire container */
+}
+
+.hero h1,
+.hero h2,
+.hero .btn {
+color: #fff;
+text-align: center;
+}
+
+.hero h1 {
+margin-top: 0;
+font-size: 4rem;
+}
+
+.hero h2 {
+margin-top: 0;
+font-size: 2rem;
+}
+
+.hero .btn {
+display: inline-block;
+padding: 10px 20px;
+background-color: #0074D9;
+color: #fff;
+border-radius: 5px;
+text-decoration: none;
+margin-top: 20px;
+}
+
+/* About section styles */
+.about {
+padding: 100px 0;
+background-color: #f1f1f1;
+text-align: center;
+}
+
+.about h2 {
+margin-bottom: 20px;
+}
+
+.about p {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.about .btn {
+margin-top: 20px;
+}
+
+/* Services section styles */
+.services {
+padding: 100px 0;
+text-align: center;
+}
+
+.services h2 {
+margin-bottom: 20px;
+}
+
+.services .row {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.services .col {
+width: 300px;
+margin: 0 20px;
+text-align: left;
+}
+
+.services .col h3 {
+margin-top: 0;
+}
+
+.services .col p {
+margin-bottom: 20px;
+}
+
+.services .icon {
+font-size: 3rem;
+margin-bottom: 20px;
+}
