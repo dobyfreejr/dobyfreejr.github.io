@@ -13,24 +13,26 @@ body {
     padding: 0 20px;
     }
     
-    /* Header styles /
     header {
-    height: 100px;
-    background-color: #333;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw; / set the width to 100vw */
-    
-    header img {
-    height: 100%; /* change height to 100% to fill the header /
-    object-fit: cover; / change to cover to fill the entire header */
-    }
+        height: 100vh; /* set the height to the full viewport height */
+        background-color: #333;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        background-image: url('img/istockphoto-1402450534-170667a.jpg'); /* set the background image */
+        background-size: cover; /* make the image cover the entire header element */
+      }
+      
+      header img {
+        display: none; /* hide the header image element */
+      }
+      
     
     nav ul {
     list-style: none;
