@@ -1,11 +1,20 @@
-    .container {
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-    }
-    
-    /* Header styles /
-    header {
+    height: 50vh;
+  }
+  
+  /* Header styles */
+  header {
     height: 100px;
     background-color: #333;
     color: #fff;
@@ -16,117 +25,109 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw; / set the width to 100vw */
-    
-    header img {
-    height: 100%; /* change height to 100% to fill the header /
-    object-fit: cover; / change to cover to fill the entire header */
-    }
-    
-    nav ul {
+    width: 100vw; /* set the width to 100vw */
+  }
+  
+  header img {
+    height: 100%; /* change height to 100% to fill the header */
+    object-fit: cover; /* change to cover to fill the entire header */
+  }
+  
+  nav ul {
     list-style: none;
     display: flex;
-    }
-    
-    nav ul li {
+  }
+  
+  nav ul li {
     margin: 0 10px;
-    }
-    
-    nav ul li a {
+  }
+  
+  nav ul li a {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    }
-    
-    .hero {
-        background: url('img/istockphoto-1402450534-170667a.jpg') center center/cover;
-        height: 50vh; /* change height to 50vh to cover the top half of the screen */
-        background-size: cover;
-        background-position: center center;
-        display: flex; /* add display flex to center content vertically */
-        justify-content: center;
-        align-items: center;
-      }
-      
-      .hero h1,
-      .hero h2,
-      .hero .btn {
-        color: #fff;
-        text-align: center;
-        margin: 0; /* remove margin top */
-      }
-      
-      .hero h1 {
-        font-size: 4rem;
-        margin-bottom: 20px; /* add margin bottom to create space between elements */
-      }
-      
-      .hero h2 {
-        font-size: 2rem;
-        margin-bottom: 20px;
-      }
-      
-      .hero .btn {
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: #0074D9;
-        color: #fff;
-        border-radius: 5px;
-        text-decoration: none;
-      }
-    
-    /* About section styles */
-     {
+  }
+  
+  .hero {
+    background: url('img/istockphoto-1402450534-170667a.jpg') center center/cover; /* removed the missing semicolon */
+    height: calc(50vh - 100px);
+    background-size: cover; /* make sure image covers entire container */
+    background-position: center center;
+    margin-top: 0; /* remove default margin */
+  }
+  
+  .hero h1,
+  .hero h2,
+  .hero .btn {
+    color: #fff;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    margin-top: 0;
+    font-size: 4rem;
+  }
+  
+  .hero h2 {
+    margin-top: 0;
+    font-size: 2rem;
+  }
+  
+  .hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0074D9;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  
+  /* About section styles */
+  .about {
     padding: 100px 0;
     background-color: #f1f1f1;
     text-align: center;
-    }
-    
-    .about h2 {
+    margin-bottom: 0; /* remove default margin */
+  }
+  
+  .about h2 {
     margin-bottom: 20px;
-    }
-    
-    .about p {
+  }
+  
+  .about p {
     max-width: 600px;
     margin: 0 auto;
-    }
-    
-    .about .btn {
+  }
+  
+  .about .btn {
     margin-top: 20px;
-    }
-    
-    /* Services section styles */
-    .services {
+  }
+  
+  /* Services section styles */
+  .services {
     padding: 100px 0;
     text-align: center;
-    }
-    
-    .services h2 {
+  }
+  
+  .services h2 {
     margin-bottom: 20px;
-    }
-    
-    .services .row {
+  }
+  
+  .services .row {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    }
-    
-    .services .col {
+  }
+  
+  .services .col {
     width: 300px;
     margin: 0 20px;
     text-align: left;
-    }
-    
-    .services .col h3 {
+  }
+  
+  .services .col h3 {
     margin-top: 0;
-    }
+  }
     
-    .services .col p {
-    margin-bottom: 20px;
-    }
-    
-    .services .icon {
-    font-size: 3rem;
-    margin-bottom: 20px;
-    }
