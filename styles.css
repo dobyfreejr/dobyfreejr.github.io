@@ -16,7 +16,7 @@ body {
     header {
         height: 100vh; /* set the height to the full viewport height */
         background-color: #333;
-        color: #fff;
+        color: #1b1a1a;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -44,7 +44,7 @@ body {
     }
     
     nav ul li a {
-    color: #fff;
+    color: #0e0e0e;
     text-decoration: none;
     text-transform: uppercase;
     }
@@ -86,7 +86,7 @@ body {
     /* About section styles */
     .about {
     padding: 100px 0;
-    background-color: #f1f1f1;
+    background-color: #140f0f;
     text-align: center;
     }
     
