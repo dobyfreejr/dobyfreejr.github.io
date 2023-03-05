@@ -22,7 +22,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100vw; /* set the width to 100vw */
@@ -30,6 +30,7 @@ body {
   
   header img {
     height: 100%; /* change height to 100% to fill the header */
+    width: auto;
     object-fit: cover; /* change to cover to fill the entire header */
   }
   
