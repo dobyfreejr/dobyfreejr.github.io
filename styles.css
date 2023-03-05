@@ -46,38 +46,40 @@
     }
     
     .hero {
-    background: url('img/istockphoto-1402450534-170667a.jpg') center center/cover; /* removed the missing semicolon /
-    height: calc(100vh - 100px);
-    background-size: cover; / make sure image covers entire container */
-    background-position: center center;
-    }
-    
-    .hero h1,
-    .hero h2,
-    .hero .btn {
-    color: #fff;
-    text-align: center;
-    }
-    
-    .hero h1 {
-    margin-top: 0;
-    font-size: 4rem;
-    }
-    
-    .hero h2 {
-    margin-top: 0;
-    font-size: 2rem;
-    }
-    
-    .hero .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #0074D9;
-    color: #fff;
-    border-radius: 5px;
-    text-decoration: none;
-    margin-top: 20px;
-    }
+        background: url('img/istockphoto-1402450534-170667a.jpg') center center/cover;
+        height: 50vh; /* change height to 50vh to cover the top half of the screen */
+        background-size: cover;
+        background-position: center center;
+        display: flex; /* add display flex to center content vertically */
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .hero h1,
+      .hero h2,
+      .hero .btn {
+        color: #fff;
+        text-align: center;
+        margin: 0; /* remove margin top */
+      }
+      
+      .hero h1 {
+        font-size: 4rem;
+        margin-bottom: 20px; /* add margin bottom to create space between elements */
+      }
+      
+      .hero h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+      }
+      
+      .hero .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #0074D9;
+        color: #fff;
+        border-radius: 5px;
+        text-decoration: none;
     
     /* About section styles */
     .about {
