@@ -1,134 +1,64 @@
 body {
-    margin: 0;
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  h1, h2, h3 {
+    font-weight: 700;
+  }
+  
+  header {
+    background-color: #fff;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  main {
+    padding: 50px;
+  }
+  
+  .about {
+    margin-top: 50px;
   }
   
   .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
-    height: 50vh;
   }
   
-  /* Header styles */
-  header {
-    height: 100px;
-    background-color: #333;
-    color: #fff;
+  .row {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw; /* set the width to 100vw */
+    margin-top: 50px;
   }
   
-  header img {
-    height: 100%; /* change height to 100% to fill the header */
-    width: auto;
-    object-fit: cover; /* change to cover to fill the entire header */
+  .col {
+    flex-basis: calc(33.33% - 20px);
   }
   
-  nav ul {
-    list-style: none;
-    display: flex;
-  }
-  
-  nav ul li {
-    margin: 0 10px;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-  
-  .hero {
-    background: url('img/istockphoto-1402450534-170667a.jpg') center center/cover; /* removed the missing semicolon */
-    height: calc(50vh - 100px);
-    background-size: cover; /* make sure image covers entire container */
-    background-position: center center;
-    margin-top: 0; /* remove default margin */
-  }
-  
-  .hero h1,
-  .hero h2,
-  .hero .btn {
-    color: #fff;
-    text-align: center;
-  }
-  
-  .hero h1 {
-    margin-top: 0;
-    font-size: 4rem;
-  }
-  
-  .hero h2 {
-    margin-top: 0;
-    font-size: 2rem;
-  }
-  
-  .hero .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #0074D9;
-    color: #fff;
-    border-radius: 5px;
-    text-decoration: none;
-    margin-top: 20px;
-  }
-  
-  /* About section styles */
-  .about {
-    padding: 100px 0;
-    background-color: #f1f1f1;
-    text-align: center;
-    margin-bottom: 0; /* remove default margin */
-  }
-  
-  .about h2 {
+  .icon {
+    font-size: 40px;
+    color: #000;
     margin-bottom: 20px;
   }
-  
-  .about p {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
-  .about .btn {
-    margin-top: 20px;
-  }
-  
-  /* Services section styles */
-  .services {
-    padding: 100px 0;
-    text-align: center;
-  }
-  
-  .services h2 {
-    margin-bottom: 20px;
-  }
-  
-  .services .row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  
-  .services .col {
-    width: 300px;
-    margin: 0 20px;
-    text-align: left;
-  }
-  
-  .services .col h3 {
-    margin-top: 0;
-  }
-    
