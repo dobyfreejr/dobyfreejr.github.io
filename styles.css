@@ -49,7 +49,7 @@ text-transform: uppercase;
 }
 
 .hero {
-background: url('img/istockphoto-1331943958-170667a.jpg') center center/cover no-repeat;
+background: url('img/istockphoto-1402450534-170667a.jpg') center center/
 height: calc(100vh - 100px);
 background-size: cover; /* make sure image covers entire container */
 background-position: center center;
