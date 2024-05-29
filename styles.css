@@ -92,6 +92,24 @@ section ul li {
   margin: 10px 0;
 }
 
+/* Image centering within an oval */
+.image-wrapper {
+  width: 200px; /* Adjust width as needed */
+  height: 200px; /* Adjust height as needed */
+  border-radius: 50%; /* This makes the wrapper an oval */
+  overflow: hidden; /* Ensures the image doesn't spill out of the wrapper */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto; /* Centers the wrapper horizontally */
+}
+
+.profile-image {
+  width: 100%;
+  height: auto; /* Ensures the image maintains its aspect ratio */
+  display: block;
+}
+
 /* Footer styling */
 footer {
   text-align: center;
@@ -122,3 +140,4 @@ footer a:hover {
       border-top: none;
   }
 }
+
