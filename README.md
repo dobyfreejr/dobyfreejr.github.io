@@ -1,2 +1,0 @@
-Hello My Name is Kyle Barbre
-I am new to the Cyber Security World.I hope to Find my niche in the industry and progress further towards my dreams of landing one of those awesome remote jobs.I have always been into computer and coding since I was a young kid. I started out building old World of Warcraft private servers and managing databases. I have built a few websites over the years none that are currently up and running. I enjoy learning new concept to computers and new coding langauges how ever I am not great at any one specific language as of yet. Time will tell. 
