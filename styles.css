@@ -102,12 +102,14 @@ section ul li {
   align-items: center;
   justify-content: center;
   margin: 0 auto; /* Centers the wrapper horizontally */
+  position: relative;
 }
 
 .profile-image {
   width: 100%;
-  height: auto; /* Ensures the image maintains its aspect ratio */
-  display: block;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the entire wrapper while maintaining aspect ratio */
+  object-position: center; /* Centers the image within the wrapper */
 }
 
 /* Footer styling */
