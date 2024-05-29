@@ -107,7 +107,8 @@ section ul li {
 
 .profile-image {
   width: 100%;
-  height: 100%;
+  height: auto;
+  max-height: 100%;
   object-fit: cover; /* Ensures the image covers the entire wrapper while maintaining aspect ratio */
   object-position: center; /* Centers the image within the wrapper */
 }
