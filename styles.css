@@ -92,11 +92,10 @@ section ul li {
   margin: 10px 0;
 }
 
-/* Image centering within an oval */
+/* Image centering within a square */
 .image-wrapper {
   width: 200px; /* Adjust width as needed */
   height: 200px; /* Adjust height as needed */
-  border-radius: 50%; /* This makes the wrapper an oval */
   overflow: hidden; /* Ensures the image doesn't spill out of the wrapper */
   display: flex;
   align-items: center;
@@ -107,10 +106,9 @@ section ul li {
 
 .profile-image {
   width: 100%;
-  height: auto;
-  max-height: 100%;
+  height: 100%;
   object-fit: cover; /* Ensures the image covers the entire wrapper while maintaining aspect ratio */
-  object-position: top; /* Centers the image within the wrapper */
+  object-position: center; /* Centers the image within the wrapper */
 }
 
 /* Footer styling */
