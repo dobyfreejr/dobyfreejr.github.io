@@ -148,3 +148,10 @@ footer a:hover {
       border-top: none;
   }
 }
+}
+
+/* LinkedIn logo styling */
+header nav ul li a img {
+  height: 20px; /* Set a smaller height for the LinkedIn logo */
+  width: auto; /* Allow width to adjust proportionally */
+}
