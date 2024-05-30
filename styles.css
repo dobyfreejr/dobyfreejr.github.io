@@ -36,6 +36,12 @@ header nav ul li a:hover {
   text-decoration: underline;
 }
 
+/* LinkedIn logo styling */
+header nav ul li a img {
+  height: 30px; /* Set the height of the LinkedIn logo */
+  width: auto; /* Allow width to adjust proportionally */
+}
+
 /* Main content styling */
 main {
   padding: 20px;
