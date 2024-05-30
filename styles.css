@@ -109,7 +109,7 @@ section ul li {
   height: 100%;
   object-fit: contain; /* Adjusts the image to fit within the container without cropping */
   object-position: center; /* Centers the image within the wrapper */
-  transform: scale(0.7); /* Scales down the image */
+  transform: scale(0.5); /* Scales down the image */
 }
 
 /* Footer styling */
