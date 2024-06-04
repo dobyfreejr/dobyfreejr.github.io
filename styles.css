@@ -10,7 +10,17 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.8);
+}
+
+#matrixCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.3; /* Adjust opacity to make it translucent */
+    pointer-events: none;
 }
 
 /* Header styling */
@@ -167,16 +177,4 @@ footer a:hover {
   footer {
       border-top: none;
   }
-}
-
-/* Matrix effect styling */
-#matrixCanvas {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-    opacity: 0.3;
-    pointer-events: none;
 }
