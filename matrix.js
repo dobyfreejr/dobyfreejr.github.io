@@ -1,4 +1,3 @@
-// matrix.js
 function createMatrixEffect(canvasId) {
     const canvas = document.getElementById(canvasId);
     const ctx = canvas.getContext('2d');
