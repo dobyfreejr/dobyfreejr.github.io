@@ -5,6 +5,7 @@ body {
   padding: 0;
   background-color: #f4f4f4;
   color: #333;
+  overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
 /* Header styling */
@@ -49,6 +50,8 @@ main {
   margin: 0 auto;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative; /* Ensure main content is in the flow */
+  z-index: 1; /* Ensure main content is above the canvas */
 }
 
 /* Section styling */
@@ -159,7 +162,7 @@ header nav ul li a img {
 body, html {
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow-x: hidden;
     background-color: black;
 }
 
@@ -168,7 +171,7 @@ body, html {
     top: 0;
     bottom: 0;
     width: 100px;
-    z-index: -1; /* Ensures the canvas is behind the main content */
+    z-index: 0; /* Ensures the canvas is behind the main content */
 }
 
 #leftMatrixCanvas {
@@ -185,4 +188,6 @@ main {
     max-width: 800px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
 }
