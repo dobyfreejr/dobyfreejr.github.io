@@ -154,3 +154,34 @@ header nav ul li a img {
   height: 20px; /* Set a smaller height for the LinkedIn logo */
   width: auto; /* Allow width to adjust proportionally */
 }
+
+/* Matrix effect styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+#leftMatrixCanvas, #rightMatrixCanvas {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+}
+
+#leftMatrixCanvas {
+    left: 0;
+}
+
+#rightMatrixCanvas {
+    right: 0;
+}
+
+main {
+    margin: 0 110px; /* Adjust to fit between the canvases */
+    padding: 20px;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
