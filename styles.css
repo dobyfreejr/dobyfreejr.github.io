@@ -5,7 +5,7 @@ body {
   padding: 0;
   background-color: #f4f4f4;
   color: #333;
-  overflow-x: hidden; /* Prevent horizontal scroll */
+  overflow-x: hidden;
 }
 
 /* Header styling */
@@ -39,8 +39,8 @@ header nav ul li a:hover {
 
 /* LinkedIn logo styling */
 header nav ul li a img {
-  height: 30px; /* Set the height of the LinkedIn logo */
-  width: auto; /* Allow width to adjust proportionally */
+  height: 30px;
+  width: auto;
 }
 
 /* Main content styling */
@@ -50,8 +50,8 @@ main {
   margin: 0 auto;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  position: relative; /* Ensure main content is in the flow */
-  z-index: 1; /* Ensure main content is above the canvas */
+  position: relative;
+  z-index: 1;
 }
 
 /* Section styling */
@@ -103,22 +103,22 @@ section ul li {
 
 /* Image centering within a circle */
 .image-wrapper {
-  width: 200px; /* Adjust width as needed */
-  height: 200px; /* Adjust height as needed */
-  overflow: hidden; /* Ensures the image doesn't spill out of the wrapper */
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto; /* Centers the wrapper horizontally */
+  margin: 0 auto;
   position: relative;
-  border-radius: 50%; /* Makes the wrapper a circle */
+  border-radius: 50%;
 }
 
 .profile-image {
   width: 100%;
   height: 100%;
-  object-fit: contain; /* Ensures the image covers the entire wrapper while maintaining aspect ratio */
-  object-position: center; /* Centers the image within the wrapper */
+  object-fit: contain;
+  object-position: center;
 }
 
 /* Footer styling */
@@ -152,26 +152,13 @@ footer a:hover {
   }
 }
 
-/* LinkedIn logo styling */
-header nav ul li a img {
-  height: 20px; /* Set a smaller height for the LinkedIn logo */
-  width: auto; /* Allow width to adjust proportionally */
-}
-
 /* Matrix effect styling */
-body, html {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    background-color: black;
-}
-
 #leftMatrixCanvas, #rightMatrixCanvas {
     position: fixed;
     top: 0;
     bottom: 0;
     width: 100px;
-    z-index: 0; /* Ensures the canvas is behind the main content */
+    z-index: 0;
 }
 
 #leftMatrixCanvas {
@@ -183,11 +170,5 @@ body, html {
 }
 
 main {
-    margin: 0 110px; /* Adjust to fit between the canvases */
-    padding: 20px;
-    max-width: 800px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    position: relative;
-    z-index: 1;
+    margin: 0 110px;
 }
