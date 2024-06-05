@@ -5,7 +5,7 @@ body {
   padding: 0;
   background-color: #f4f4f4;
   color: #333;
-  overflow: hidden;
+  overflow-y: auto; /* Allow vertical scrolling */
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -70,7 +70,6 @@ header nav ul li a img {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin-top: 60px; /* Adjust margin to ensure content is not hidden behind the header */
-  overflow-y: auto; /* Allow content to be scrollable if it overflows */
   flex: 1;
   width: 100%;
 }
