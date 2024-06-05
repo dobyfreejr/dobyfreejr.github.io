@@ -69,11 +69,13 @@ header nav ul li a img {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-top: 80px; /* Adjust margin to ensure content is not hidden behind the header */
+  margin-top: 60px; /* Adjust margin to ensure content is not hidden behind the header */
+  overflow-y: auto; /* Allow content to be scrollable if it overflows */
+  flex: 1;
+  width: 100%;
 }
 
 main {
-  flex: 1 0 auto;
   max-width: 800px;
   margin: 0 auto;
   position: relative;
