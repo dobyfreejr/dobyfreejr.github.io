@@ -7,20 +7,19 @@ body {
   color: #333;
   overflow: hidden;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
   height: 100vh;
 }
 
 #matrixCanvas {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-    opacity: 0.5; /* Adjust opacity to make it translucent */
-    pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  opacity: 0.5; /* Adjust opacity to make it translucent */
+  pointer-events: none;
 }
 
 /* Header styling */
@@ -70,9 +69,11 @@ header nav ul li a img {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 60px; /* Adjust margin to ensure content is not hidden behind the header */
 }
 
 main {
+  flex: 1 0 auto;
   max-width: 800px;
   margin: 0 auto;
   position: relative;
@@ -151,9 +152,11 @@ footer {
   margin-top: 20px;
   border-top: 1px solid #ccc;
   padding-top: 10px;
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
+  background-color: #333; /* Black background for the footer */
+  color: #fff; /* White text for the footer */
 }
 
 footer p {
