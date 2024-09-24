@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kyle Barbre - Personal Projects</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="styles.css">
     <link rel="apple-touch-icon" sizes="57x57" href="/img/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/img/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/img/apple-icon-72x72.png">
@@ -15,7 +14,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="/img/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="/img/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/img/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/img/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
@@ -33,37 +32,43 @@
                 <li><a href="work_history.html">Work History</a></li>
                 <li><a href="skills_hobbies_accomplishments.html">Skills, Hobbies & Accomplishments</a></li>
                 <li><a href="personal_projects.html">Personal Projects</a></li>
-                <li><a href="https://www.linkedin.com/in/kyle-barbre-81a574239" target="_blank"><img src="/img/LinkedIn.png" alt="LinkedIn"></a></li>
+                <li><a href="https://www.linkedin.com/in/kyle-barbre-81a574239" target="_blank">
+                    <img src="/img/LinkedIn.png" alt="LinkedIn" class="social-icon">
+                </a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section class="content-wrapper">
             <h2>Personal Projects</h2>
-            <h3>"Winston" Malware Analysis Tool</h3>
-            <p>Description: Developed a comprehensive malware analysis tool aimed at empowering Security Operations Center (SOC) analysts to swiftly identify and mitigate cyber threats.</p>
-            <ul>
-                <li>Key Contributions: Integrated with VirusTotal API to enable seamless submission and analysis of suspicious files and URLs, leveraging global threat intelligence.</li>
-                <li>Implemented WHOIS and IP lookup functionalities to facilitate in-depth investigations into malicious domains and IP addresses.</li>
-                <li>Designed an intuitive command-line interface (CLI) for streamlined usability and efficient workflow navigation.</li>
-                <li>Demonstrated dedication to continuous improvement by actively troubleshooting and enhancing integration with services like MalwareBazaar.</li>
-                <li>Technologies Used: Python, VirusTotal API, WHOIS, IP lookup, Command-line Interface.</li>
-                <li>Impact: Significantly accelerated incident response times and bolstered organizational resilience against cyber threats by providing SOC analysts with a robust toolkit for malware analysis and investigative tasks.</li>
-            </ul>
-            <h3>Home Network Monitoring with ELK Stack</h3>
-            <p>Description: Designed and implemented a comprehensive network monitoring solution using the ELK (Elasticsearch, Logstash, Kibana) stack to monitor activity and analyze logs on my home network.</p>
-            <ul>
-                <li>Key Contributions: Configured Elasticsearch as a scalable and distributed search and analytics engine to store and index network logs and events.</li>
-                <li>Utilized Logstash for log ingestion, parsing, and enrichment, enabling seamless integration with various data sources within the home network.</li>
-                <li>Developed custom Kibana dashboards to visualize network traffic, identify anomalies, and track system performance metrics in real-time.</li>
-                <li>Leveraged Google Cloud Platform (GCP) to host and manage the ELK stack, ensuring high availability and scalability of the monitoring infrastructure.</li>
-                <li>Technologies Used: Elasticsearch, Logstash, Kibana, Google Cloud Platform (GCP).</li>
-                <li>Impact: Empowered proactive monitoring and troubleshooting of network issues, enhancing network security and optimizing resource utilization within the home environment.</li>
-            </ul>
+            <div class="project">
+                <h3>"Winston" Malware Analysis Tool</h3>
+                <p>Description: Developed a comprehensive malware analysis tool aimed at empowering Security Operations Center (SOC) analysts to swiftly identify and mitigate cyber threats.</p>
+                <ul>
+                    <li>Key Contributions: Integrated with VirusTotal API to enable seamless submission and analysis of suspicious files and URLs, leveraging global threat intelligence.</li>
+                    <li>Implemented WHOIS and IP lookup functionalities to facilitate in-depth investigations into malicious domains and IP addresses.</li>
+                    <li>Designed an intuitive command-line interface (CLI) for streamlined usability and efficient workflow navigation.</li>
+                    <li>Demonstrated dedication to continuous improvement by actively troubleshooting and enhancing integration with services like MalwareBazaar.</li>
+                    <li>Technologies Used: Python, VirusTotal API, WHOIS, IP lookup, Command-line Interface.</li>
+                    <li>Impact: Significantly accelerated incident response times and bolstered organizational resilience against cyber threats by providing SOC analysts with a robust toolkit for malware analysis and investigative tasks.</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3>Home Network Monitoring with ELK Stack</h3>
+                <p>Description: Designed and implemented a comprehensive network monitoring solution using the ELK (Elasticsearch, Logstash, Kibana) stack to monitor activity and analyze logs on my home network.</p>
+                <ul>
+                    <li>Key Contributions: Configured Elasticsearch as a scalable and distributed search and analytics engine to store and index network logs and events.</li>
+                    <li>Utilized Logstash for log ingestion, parsing, and enrichment, enabling seamless integration with various data sources within the home network.</li>
+                    <li>Developed custom Kibana dashboards to visualize network traffic, identify anomalies, and track system performance metrics in real-time.</li>
+                    <li>Leveraged Google Cloud Platform (GCP) to host and manage the ELK stack, ensuring high availability and scalability of the monitoring infrastructure.</li>
+                    <li>Technologies Used: Elasticsearch, Logstash, Kibana, Google Cloud Platform (GCP).</li>
+                    <li>Impact: Empowered proactive monitoring and troubleshooting of network issues, enhancing network security and optimizing resource utilization within the home environment.</li>
+                </ul>
+            </div>
         </section>
     </main>
     <footer>
-        <p>Contact Info: 508-641-0938 | Email: Kyle@baysec.space</p>
+        <p>Contact Info: <a href="mailto:Kyle@baysec.space">Kyle@baysec.space</a></p>
         <p><a href="index.html">Back to Home</a></p>
     </footer>
     <script src="matrix.js"></script>
