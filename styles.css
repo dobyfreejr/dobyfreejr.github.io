@@ -268,3 +268,13 @@ a:focus {
 .social-button:hover {
   background-color: #0056b3;
 }
+.project-card h3 a {
+  color: #00bfff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.project-card h3 a:hover {
+  color: #007BFF;
+  text-decoration: underline;
+}

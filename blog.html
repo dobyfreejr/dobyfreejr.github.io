@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kyle Barbre | Blog</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Blog posts by Kyle Barbre – cybersecurity insights, Cribl, threat detection, and more." />
+  <meta name="keywords" content="Kyle Barbre, cybersecurity, blog, Cribl, SIEM, security automation" />
+</head>
+<body>
+  <canvas id="matrixCanvas"></canvas>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="work_history.html">Work History</a></li>
+        <li><a href="skills_hobbies_accomplishments.html">Skills, Accomplishments & Hobbies</a></li>
+        <li><a href="personal_projects.html">Projects</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/kyle-barbre-81a574239" target="_blank">
+            <img src="/img/LinkedIn.png" alt="LinkedIn" style="height: 20px;" />
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="content-wrapper">
+      <h2>Latest Blog Posts</h2>
+      <div id="blog-posts">
+        <p>Loading posts from Medium...</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contact: <a href="mailto:kyle@baysec.space">kyle@baysec.space</a></p>
+  </footer>
+
+  <script>
+    async function fetchMediumPosts() {
+      const url = 'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@kylebarbre';
+      const container = document.getElementById('blog-posts');
+      try {
+        const response = await fetch(url);
+        const data = await response.json();
+        if (!data.items || !data.items.length) {
+          container.innerHTML = '<p>No posts found.</p>';
+          return;
+        }
+
+        container.innerHTML = ''; // Clear loading message
+
+        data.items.slice(0, 5).forEach(post => {
+          const card = document.createElement('div');
+          card.className = 'project-card';
+          card.innerHTML = `
+            <h3><a href="${post.link}" target="_blank">${post.title}</a></h3>
+            <p><em>${new Date(post.pubDate).toLocaleDateString()}</em></p>
+            <p>${post.description.split('</p>')[0]}</p>
+            <a class="github-button" href="${post.link}" target="_blank">Read More →</a>
+          `;
+          container.appendChild(card);
+        });
+      } catch (err) {
+        container.innerHTML = `<p>Error loading posts: ${err.message}</p>`;
+      }
+    }
+
+    fetchMediumPosts();
+  </script>
+</body>
+</html>
