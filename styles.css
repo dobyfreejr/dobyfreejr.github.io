@@ -247,4 +247,24 @@ a:focus {
 
 .resume-button:hover {
   background-color: #0056b3;
+}.button-group {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.social-button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.social-button:hover {
+  background-color: #0056b3;
 }
