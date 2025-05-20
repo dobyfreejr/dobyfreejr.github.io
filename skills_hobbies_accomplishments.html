@@ -1,85 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kyle Barbre - Skills, Hobbies & Accomplishments</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="apple-touch-icon" sizes="57x57" href="/img/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/img/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/img/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/img/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/img/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/img/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/img/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/img/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/img/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kyle Barbre - Skills, Hobbies & Accomplishments</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="description" content="Explore Kyle Barbre’s professional skills in cybersecurity, recent accomplishments, and technical hobbies in automation, reverse engineering, and infrastructure." />
+  <meta name="keywords" content="Kyle Barbre, cybersecurity, skills, accomplishments, threat detection, Ghidra, Python, SIEM, home lab" />
+  <meta name="author" content="Kyle Barbre" />
 </head>
 <body>
-    <canvas id="matrixCanvas"></canvas>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="work_history.html">Work History</a></li>
-                <li><a href="skills_hobbies_accomplishments.html">Skills, Hobbies & Accomplishments</a></li>
-                <li><a href="personal_projects.html">Personal Projects</a></li>
-                <li><a href="https://www.linkedin.com/in/kyle-barbre-81a574239" target="_blank"><img src="/img/LinkedIn.png" alt="LinkedIn"></a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="content-wrapper">
-            <h2>Skills, Hobbies & Accomplishments</h2>
-            <h3>Skills</h3>
-            <ul class="skills-list">
-                <li>SIEM management</li>
-                <li>Threat Hunting</li>
-                <li>Log Analysis</li>
-                <li>Wireshark Usage</li>
-                <li>IDS/IPS Knowledge</li>
-                <li>Vulnerability Assessment</li>
-                <li>Nmap Scanning</li>
-                <li>TCP and IP Protocols</li>
-                <li>Python and Bash proficiency</li>
-                <li>Malcolm</li>
-                <li>CrowdStrike Falcon</li>
-                <li>Reverse Engineering with Ghidra</li>
-                <li>Incident Response</li>
-            </ul>
-            <h3>Accomplishments</h3>
-            <ul class="accomplishments-list">
-                <li>Developed Winston from Scratch.</li>
-                <li>Migrated a biotech research facility's EDR from S1 to CS, managing 80 endpoints and performing network reconfigurations.</li>
-                <li>Set up a Jira Ticketing System for company-wide use.</li>
-                <li>Self-taught assembly and reverse engineering skills for Huntress CTF, placing 87th out of 1018 teams.</li>
-            </ul>
-            <h3>Hobbies</h3>
-            <ul class="hobbies-list">
-                <li>Working on Winston</li>
-                <li>Raspberry Pi Projects</li>
-                <li>Pihole</li>
-                <li>Home Networking Speed Monitor</li>
-                <li>ChatGPT with OpenWebui</li>
-                <li>Linode Projects</li>
-                <li>Wazuh</li>
-                <li>OpenVPN</li>
-                <li>Beef</li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <p>Contact Info: Email: <a href="mailto:Kyle@baysec.space">Kyle@baysec.space</a></p>
-        <p><a href="index.html">Back to Home</a></p>
-    </footer>
-    <script src="matrix.js"></script>
+  <canvas id="matrixCanvas"></canvas>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="work_history.html">Work History</a></li>
+        <li><a href="skills_hobbies_accomplishments.html">Skills, Accomplishments & Hobbies</a></li>
+        <li><a href="personal_projects.html">Projects</a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/kyle-barbre-81a574239" target="_blank">
+            <img src="/img/LinkedIn.png" alt="LinkedIn" class="social-icon" />
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="content-wrapper">
+      <h2>Skills, Accomplishments & Technical Interests</h2>
+
+      <!-- Skills Card -->
+      <div class="project-card">
+        <h3>Professional Skills</h3>
+        <ul>
+          <li>SIEM Management (Splunk, Sentinel, Cribl)</li>
+          <li>Threat Hunting & Log Correlation</li>
+          <li>Packet Analysis (Wireshark, TCP/IP stack)</li>
+          <li>IDS/IPS Configuration and Tuning</li>
+          <li>Vulnerability Assessment & Scanning (Nmap, Nessus)</li>
+          <li>Incident Response & Triage</li>
+          <li>Scripting and Automation (Python, Bash)</li>
+          <li>Endpoint Security (CrowdStrike Falcon, EDR migrations)</li>
+          <li>Reverse Engineering (Ghidra, Assembly Fundamentals)</li>
+          <li>Malcolm Framework for Traffic Analysis</li>
+        </ul>
+      </div>
+
+      <!-- Accomplishments Card -->
+      <div class="project-card">
+        <h3>Key Accomplishments</h3>
+        <ul>
+          <li>Designed and developed <strong>“Winston”</strong> — a malware analysis toolkit for SOC environments, integrating threat intel APIs.</li>
+          <li>Migrated a biotech research company from SentinelOne to CrowdStrike, securing 80 endpoints and redesigning network topology.</li>
+          <li>Implemented Jira Service Desk company-wide, integrating automation for ticket routing and triage.</li>
+          <li>Self-taught reverse engineering fundamentals to compete in the Huntress CTF, placing <strong>87th out of 1,018 teams</strong>.</li>
+        </ul>
+      </div>
+
+      <!-- Hobbies Card -->
+      <div class="project-card">
+        <h3>Technical Interests & Side Projects</h3>
+        <ul>
+          <li>Ongoing development of <strong>Winston</strong> and other custom CLI tools</li>
+          <li>Raspberry Pi–based network appliances (monitoring, DNS filtering)</li>
+          <li>Performance tuning with <strong>Pi-hole</strong> and <strong>Wazuh</strong></li>
+          <li>OpenVPN tunneling and internal server routing</li>
+          <li>ChatGPT experimentation using OpenWebUI on Linode</li>
+          <li>Traffic injection tests with <strong>BeEF</strong> and lab VMs</li>
+          <li>Home speed monitoring dashboards and uptime alerts</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contact Info: <a href="mailto:Kyle@baysec.space">Kyle@baysec.space</a></p>
+    <p><a href="index.html">← Back to Home</a></p>
+  </footer>
+
+  <script src="matrix.js"></script>
 </body>
 </html>

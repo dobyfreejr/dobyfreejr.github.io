@@ -2,76 +2,86 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kyle Barbre - Work History</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="apple-touch-icon" sizes="57x57" href="/img/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/img/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/img/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/img/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/img/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/img/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/img/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/img/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="/img/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
-  <link rel="manifest" href="/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
+
+  <!-- Styles & Favicon -->
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png" />
+
+  <!-- SEO Metadata -->
+  <meta name="description" content="Work history of Kyle Barbre, cybersecurity professional with experience in SIEM, automation, education, and modern threat defense." />
+  <meta name="keywords" content="Kyle Barbre, cybersecurity, work history, Five9, Techurion, EdX, SIEM, Cribl, SOC" />
+  <meta name="author" content="Kyle Barbre" />
 </head>
 
 <body>
   <canvas id="matrixCanvas"></canvas>
+
   <header>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="work_history.html">Work History</a></li>
-        <li><a href="skills_hobbies_accomplishments.html">Skills, Hobbies & Accomplishments</a></li>
-        <li><a href="personal_projects.html">Personal Projects</a></li>
+        <li><a href="skills_hobbies_accomplishments.html">Skills ,Accomplishments & Hobbies</a></li>
+        <li><a href="personal_projects.html">Projects</a></li>
         <li>
-          <a href="https://www.linkedin.com/in/kyle-barbre-81a574239" target="_blank">
-            <img src="/img/LinkedIn.png" alt="LinkedIn">
+          <a href="https://www.linkedin.com/in/kyle-barbre-81a574239" target="_blank" aria-label="LinkedIn Profile">
+            <img src="/img/LinkedIn.png" alt="LinkedIn" />
           </a>
         </li>
       </ul>
     </nav>
   </header>
+
   <main>
     <section class="content-wrapper">
       <h2>Work History</h2>
 
-      <article>
-        <h3>Techurion - System Administrator</h3>
-        <p><strong>03/2024 - Current</strong></p>
+      <!-- Five9 -->
+      <div class="project-card">
+        <h3>Five9 – SIEM Engineer (Contract)</h3>
+        <p><strong>01/2025 – Current</strong></p>
         <ul>
-          <li>Established and managed the entire tech stack at Techurion, including Azure Active Directory and Jira ticketing systems, leveraging expertise in automation and scripting languages such as JSON, Python, and Bash.</li>
-          <li>Implemented Tines automations to streamline workflows, integrate systems, and enhance communication across the organization, driving efficiency and productivity.</li>
-          <li>Led security operations as part of Techurion's Managed Security Service Provider (MSSP) offerings, conducting virus scans using tools like VirusTotal, performing network analyses, and conducting host analyses to fortify our security infrastructure.</li>
+          <li>Serve as a key member of the SOC engineering team, focusing on SIEM rule tuning, log pipeline efficiency, and data normalization across multiple threat surfaces.</li>
+          <li>Use Cribl to build scalable observability workflows — transforming and routing security telemetry to Splunk, S3, and third-party tools to reduce ingestion costs.</li>
+          <li>Support incident response teams by developing custom detection logic, improving visibility into endpoints, cloud workloads, and authentication systems.</li>
         </ul>
-      </article>
+      </div>
 
-      <article>
-        <h3>Edx - Teaching Assistant</h3>
-        <p><strong>01/2023 - Current</strong></p>
+      <!-- Techurion -->
+      <div class="project-card">
+        <h3>Techurion – System Administrator / Security Analyst</h3>
+        <p><strong>03/2024 – Current</strong></p>
         <ul>
-          <li>Aided in teaching a 6-month-long bootcamp for 50+ students supporting a wide range of technologies including cloud computing in Azure to VM management from Vagrant.</li>
-          <li>Course covers teaching Bash, Linux Administration, Windows Administration, PowerShell, Offensive Security (Metasploit), Vulnerability Scanning, Pentesting, and reporting with the DVMA and custom weak web servers.</li>
-          <li>Main challenges included student interaction and helping them understand their mistakes without providing direct answers.</li>
+          <li>Owned the full technical deployment for a growing startup, including Active Directory, SSO, and integrated ticketing (Jira), driving secure-by-design principles.</li>
+          <li>Built and maintained automation pipelines using Tines to unify workflows across email, alerting, and incident tracking — significantly reducing response time.</li>
+          <li>Provided MSSP services including malware triage, host/network analysis, and threat identification using tools like VirusTotal and OSINT platforms.</li>
+          <li>Established endpoint hardening standards and led vulnerability lifecycle management across Linux and Windows systems.</li>
         </ul>
-      </article>
+      </div>
+
+      <!-- EdX -->
+      <div class="project-card">
+        <h3>EdX – Cybersecurity Teaching Assistant</h3>
+        <p><strong>01/2023 – 04/2025</strong></p>
+        <ul>
+          <li>Helped train the next generation of cybersecurity professionals through a rigorous 6-month bootcamp program designed in partnership with major universities.</li>
+          <li>Guided students through hands-on labs in cloud infrastructure, Linux and Windows administration, offensive security, and secure coding practices.</li>
+          <li>Supported practical instruction on real-world tools including Metasploit, Burp Suite, Vagrant, and Azure, with a focus on ethical hacking and cyber risk awareness.</li>
+          <li>Provided mentorship, technical debugging, and soft-skill coaching to improve student confidence, problem-solving, and career-readiness.</li>
+        </ul>
+      </div>
 
     </section>
   </main>
+
   <footer>
-    <p>Contact Info: Email: <a href="mailto:Kyle@baysec.space">Kyle@baysec.space</a></p>
-    <p><a href="index.html">Back to Home</a></p>
+    <p>Contact: <a href="mailto:Kyle@baysec.space">Kyle@baysec.space</a></p>
+    <p><a href="index.html">← Back to Home</a></p>
   </footer>
+
   <script src="matrix.js"></script>
 </body>
 
