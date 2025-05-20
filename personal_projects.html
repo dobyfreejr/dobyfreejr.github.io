@@ -19,20 +19,17 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="work_history.html">Work History</a></li>
-        <li><a href="skills_hobbies_accomplishments.html">Skills ,Accomplishments & Hobbies</a></li>
+        <li><a href="skills_hobbies_accomplishments.html">Skills, Accomplishments & Hobbies</a></li>
         <li><a href="personal_projects.html">Projects</a></li>
         <li><a href="blog.html">Blog</a></li>
-        <li
-       <li class="dropdown">
-  <a href="#">Social ▾</a>
-  <ul class="dropdown-menu">
-    <li><a href="https://github.com/dobyfreejr" target="_blank">💻 GitHub</a></li>
-    <li><a href="https://medium.com/@kylebarbre" target="_blank">✍️ Medium</a></li>
-    <li><a href="https://about.me/Kyle-Barbre" target="_blank">👤 About Me</a></li>
-    <li><a href="https://linkedin.com/in/kyle-barbre-81a574239" target="_blank">🔗 LinkedIn</a></li>
-  </ul>
-</li>
-          </a>
+        <li class="dropdown">
+          <a href="#">Social ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="https://github.com/dobyfreejr" target="_blank">💻 GitHub</a></li>
+            <li><a href="https://medium.com/@kylebarbre" target="_blank">✍️ Medium</a></li>
+            <li><a href="https://about.me/Kyle-Barbre" target="_blank">👤 About Me</a></li>
+            <li><a href="https://linkedin.com/in/kyle-barbre-81a574239" target="_blank">🔗 LinkedIn</a></li>
+          </ul>
         </li>
       </ul>
     </nav>
@@ -42,7 +39,7 @@
     <section class="content-wrapper">
       <h2>Personal Projects</h2>
 
-      <!-- Winston Project Card -->
+      <!-- Winston Project -->
       <div class="project-card">
         <h3>"Winston" – Malware Analysis & Threat Investigation Toolkit</h3>
         <p><strong>Description:</strong> A Python-based toolkit designed to support SOC analysts with streamlined malware analysis and domain/IP investigation workflows.</p>
@@ -53,14 +50,12 @@
           <li><strong>Technologies:</strong> Python, APIs (VT, WHOIS, MalwareBazaar), CLI, argparse.</li>
         </ul>
         <p>
-          <a class="github-button" href="https://github.com/dobyfreejr/Winston" target="_blank">
-            🔗 View on GitHub
-          </a>
+          <a class="github-button" href="https://github.com/dobyfreejr/Winston" target="_blank">🔗 View on GitHub</a>
         </p>
         <img src="/img/winston-diagram.png" alt="Winston Workflow Diagram" class="project-diagram" />
       </div>
 
-      <!-- ELK Project Card -->
+      <!-- ELK Project -->
       <div class="project-card">
         <h3>Home Network Monitoring with ELK Stack</h3>
         <p><strong>Description:</strong> Designed and deployed a full ELK stack to collect, analyze, and visualize security-relevant activity across a home lab environment.</p>
@@ -73,22 +68,33 @@
         </ul>
       </div>
 
+      <!-- WoW Server Project -->
+      <div class="project-card">
+        <h3>Private WoW Server on Raspberry Pi 5</h3>
+        <p><strong>Description:</strong> Designed and deployed a self-hosted World of Warcraft emulation server on a Raspberry Pi 5 to explore game server architecture, Linux system administration, and low-resource infrastructure optimization.</p>
+        <ul>
+          <li>Configured and tuned an open-source emulation core with a MariaDB backend, Lua scripting, and a modular game event system</li>
+          <li>Implemented player bot automation to simulate realistic multiplayer activity and test load balancing</li>
+          <li>Secured external access via firewall rules and VPN, with remote monitoring via SSH and uptime tools</li>
+          <li>Conducted performance tuning on ARM hardware for CPU, memory, and network efficiency under simulated user load</li>
+          <li>Used this project to enhance knowledge of game logic, scripting, hosting architecture, and real-time network services</li>
+        </ul>
+        <img src="/img/wow-pi-diagram.png" alt="WoW Server Network Diagram" class="project-diagram" />
+      </div>
+
     </section>
   </main>
 
- <footer>
-  <p>Contact: <a href="mailto:kyle@baysec.space">Email</a></p>
-
-  <div class="follow-links">
-    <a href="https://github.com/dobyfreejr" target="_blank" aria-label="GitHub">💻 GitHub</a>
-    <a href="https://medium.com/@kylebarbre" target="_blank" aria-label="Medium">✍️ Medium</a>
-    <a href="https://about.me/Kyle-Barbre" target="_blank" aria-label="About Me">👤 About Me</a>
-    <a href="https://linkedin.com/in/kyle-barbre-81a574239" target="_blank" aria-label="LinkedIn">🔗 LinkedIn</a>
-  </div>
-
-  <p><a href="index.html">← Back to Home</a></p>
-</footer>
-
+  <footer>
+    <p>Contact: <a href="mailto:kyle@baysec.space">Email</a></p>
+    <div class="follow-links">
+      <a href="https://github.com/dobyfreejr" target="_blank">💻 GitHub</a>
+      <a href="https://medium.com/@kylebarbre" target="_blank">✍️ Medium</a>
+      <a href="https://about.me/Kyle-Barbre" target="_blank">👤 About Me</a>
+      <a href="https://linkedin.com/in/kyle-barbre-81a574239" target="_blank">🔗 LinkedIn</a>
+    </div>
+    <p><a href="index.html">← Back to Home</a></p>
+  </footer>
 
   <script src="matrix.js"></script>
 </body>
