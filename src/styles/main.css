@@ -862,6 +862,13 @@ main {
   color: var(--text-tertiary);
 }
 
+.skill-description {
+  font-size: var(--font-size-sm);
+  color: var(--text-secondary);
+  line-height: var(--line-height-relaxed);
+  margin-top: var(--space-2);
+}
+
 /* Accomplishments */
 .accomplishments {
   padding: var(--space-20) 0;

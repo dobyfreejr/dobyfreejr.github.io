@@ -92,20 +92,32 @@ export function renderSkills() {
             </div>
             <div class="skills-list">
               <div class="skill-item">
-                <span class="skill-name">Reverse Engineering</span>
-                <div class="skill-tools">Self-taught, CTF Competitor</div>
+                <span class="skill-name">🛡️ CompTIA Security+ (Issued Jul 2025)</span>
+                <div class="skill-description">This globally recognized certification demonstrates foundational knowledge in cybersecurity. It proves my ability to assess security posture, monitor and secure hybrid environments, understand applicable laws and policies, and respond to incidents. Having passed this exam, I can confidently secure systems and manage risks in real-world IT environments. This cert is valid through July 2028.</div>
               </div>
               <div class="skill-item">
-                <span class="skill-name">Network Security</span>
-                <div class="skill-tools">IDS/IPS, Firewall Management</div>
+                <span class="skill-name">🧠 Active Defense and Cyber Deception (Antisyphon Training, Issued Jun 2025)</span>
+                <div class="skill-description">This course dives into proactive defense strategies, including honeypots, canaries, and deception techniques. It equips me to not only detect intrusions but also to mislead and frustrate adversaries. It's particularly useful for organizations looking to go beyond reactive security and adopt a threat-informed defense posture.</div>
               </div>
               <div class="skill-item">
-                <span class="skill-name">Cloud Security</span>
-                <div class="skill-tools">AWS, GCP, Azure Security</div>
+                <span class="skill-name">🌐 Networking Basics (Cisco, Issued Jun 2025)</span>
+                <div class="skill-description">This credential affirms a solid understanding of networking fundamentals such as IP addressing, protocols, OSI model, and routing/switching basics. It's ideal for building a strong foundation in how data moves across the internet and corporate networks.</div>
               </div>
               <div class="skill-item">
-                <span class="skill-name">Compliance</span>
-                <div class="skill-tools">Security Frameworks, Auditing</div>
+                <span class="skill-name">🧩 Chronicle SIEMS Fundamentals (Google, Issued Feb 2025)</span>
+                <div class="skill-description">Demonstrates my skills in using Google Chronicle, a next-gen SIEM tool designed for high-scale event ingestion and threat detection. I'm trained in log analysis, rule writing, and understanding detection mechanisms using Chronicle's platform. This is essential for scalable SOC operations.</div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">🛜 Networking and Cybersecurity (UC Davis, Issued Jan 2023)</span>
+                <div class="skill-description">A structured academic program that provided both theoretical and practical training in computer networking and cybersecurity fundamentals. Covered areas include firewalls, network security controls, risk management, and digital forensics. It's a strong indicator of both my academic and applied understanding.</div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">🔧 Cribl Certified User (Issued Jan 2025, Expires Jan 2028)</span>
+                <div class="skill-description">This certification validates my ability to use Cribl Stream to route, reduce, enrich, and format data. I understand how to process observability data efficiently before sending it to various destinations, reducing costs and improving data usefulness.</div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">🛠️ Level 2: Cribl Certified Admin - Stream (Issued Jun 2025, Expires Jun 2028)</span>
+                <div class="skill-description">This advanced Cribl certification shows my proficiency in administrating Cribl Stream environments at scale. It includes building pipelines, managing distributed workers, implementing security best practices, and optimizing performance for large-scale data processing pipelines.</div>
               </div>
             </div>
           </div>
