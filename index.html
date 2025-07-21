@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kyle Barbre | Cybersecurity Professional</title>
-
+  
   <!-- SEO Metadata -->
   <meta name="description" content="Kyle Barbre is a cybersecurity professional focused on threat detection, SIEM, and log analysis." />
   <meta name="keywords" content="Kyle Barbre, cybersecurity, SIEM, threat detection, Cribl, log analysis" />
@@ -14,72 +14,21 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://kylebarbre.com" />
   <meta property="og:image" content="/img/kyle3.png" />
-
-  <!-- Favicon & Theme -->
-  <link rel="stylesheet" href="styles.css" />
+  
+  <!-- Favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png" />
-  <meta name="theme-color" content="#ffffff" />
+  <meta name="theme-color" content="#0066ff" />
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="src/styles/main.css" />
 </head>
 <body>
-  <canvas id="matrixCanvas"></canvas>
-
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="work_history.html">Work History</a></li>
-        <li><a href="skills_hobbies_accomplishments.html">Skills ,Accomplishments & Hobbies</a></li>
-        <li><a href="personal_projects.html">Projects</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li
-       <li class="dropdown">
-  <a href="#">Social ▾</a>
-  <ul class="dropdown-menu">
-    <li><a href="https://github.com/dobyfreejr" target="_blank">💻 GitHub</a></li>
-    <li><a href="https://medium.com/@kylebarbre" target="_blank">✍️ Medium</a></li>
-    <li><a href="https://about.me/Kyle-Barbre" target="_blank">👤 About Me</a></li>
-    <li><a href="https://linkedin.com/in/kyle-barbre-81a574239" target="_blank">🔗 LinkedIn</a></li>
-  </ul>
-</li>
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <section class="content-wrapper">
-      <div class="about-me">
-        <div class="image-wrapper">
-          <img src="/img/kyle3.png" alt="Kyle Barbre" class="profile-image" />
-        </div>
-        <h1>Kyle Barbre</h1>
-        <p>
-          I’m a cybersecurity professional focused on threat detection, log analysis, SIEM tuning, and observability tooling like Cribl. Known for my commitment to mastering new technologies and solving complex problems, I thrive in environments where adaptability, precision, and continuous learning are essential.
-        </p>
-        <p>
-          With a proven track record of saving companies time and resources through process optimization and technical leadership, I’m here to help secure what matters.
-        </p>
-
-        <!-- Social Buttons -->
-        <div class="button-group">
-          <a href="https://medium.com/@kylebarbre" target="_blank" class="social-button">✍️ Medium</a>
-          <a href="https://about.me/Kyle-Barbre" target="_blank" class="social-button">👤 About Me</a>
-          <a href="https://github.com/dobyfreejr" target="_blank" class="social-button">💻 GitHub</a>
-          <a href="https://linkedin.com/in/kyle-barbre-81a574239" target="_blank" class="social-button">🔗 LinkedIn</a>
-        </div>
-      </div>
-    </section>
-  </main>
-
- <footer>
-  <p>Contact: <a href="mailto:kyle@baysec.space">Email</a></p>
-
-  <div class="follow-links">
-    <a href="https://github.com/dobyfreejr" target="_blank" aria-label="GitHub">💻 GitHub</a>
-    <a href="https://medium.com/@kylebarbre" target="_blank" aria-label="Medium">✍️ Medium</a>
-    <a href="https://about.me/Kyle-Barbre" target="_blank" aria-label="About Me">👤 About Me</a>
-    <a href="https://linkedin.com/in/kyle-barbre-81a574239" target="_blank" aria-label="LinkedIn">🔗 LinkedIn</a>
-  </div>
-
-</footer>
+  <div id="app"></div>
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>
