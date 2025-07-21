@@ -19,23 +19,8 @@ export function renderHome() {
           <p class="hero-description">
             Specialized in <strong>threat detection</strong>, <strong>SIEM engineering</strong>, and <strong>security automation</strong>. 
             I help organizations build resilient security operations through advanced log analysis, 
-            threat hunting, and observability tooling like Cribl and Splunk.
+            threat hunting, and observability tooling like Cribl and Chronicle.
           </p>
-          
-          <div class="hero-stats">
-            <div class="stat-item">
-              <span class="stat-number">5+</span>
-              <span class="stat-label">Years Experience</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-number">87th</span>
-              <span class="stat-label">Huntress CTF Rank</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-number">80+</span>
-              <span class="stat-label">Endpoints Secured</span>
-            </div>
-          </div>
           
           <div class="hero-actions">
             <a href="mailto:kyle@baysec.space" class="btn btn-primary">
@@ -63,7 +48,7 @@ export function renderHome() {
           <div class="highlight-card">
             <div class="highlight-icon">📊</div>
             <h3>Log Analysis</h3>
-            <p>Expert in Cribl, Splunk, and ELK stack for transforming raw security telemetry into actionable intelligence.</p>
+            <p>Expert in Cribl, Chronicle, and ELK stack for transforming raw security telemetry into actionable intelligence.</p>
           </div>
           <div class="highlight-card">
             <div class="highlight-icon">⚙️</div>
