@@ -91,123 +91,46 @@ export function renderSkills() {
               <h3>Certifications & Training</h3>
             </div>
             <div class="certifications-grid">
-              <div class="cert-category">
-                <h4 class="cert-category-title">Core Security Certifications</h4>
-                <div class="cert-list">
-                  <div class="cert-card">
-                    <div class="cert-header">
-                      <span class="cert-icon">🛡️</span>
-                      <div class="cert-info">
-                        <span class="cert-name">CompTIA Security+</span>
-                        <span class="cert-date">Issued Jul 2025 • Valid until Jul 2028</span>
-                      </div>
-                    </div>
-                    <p class="cert-description">
-                      This globally recognized certification demonstrates foundational knowledge in cybersecurity. 
-                      It proves my ability to assess security posture, monitor and secure hybrid environments, 
-                      understand applicable laws and policies, and respond to incidents.
-                    </p>
-                  </div>
-                </div>
+              <div class="cert-item">
+                <span class="cert-icon">🛡️</span>
+                <span class="cert-name">CompTIA Security+</span>
+                <div class="cert-date">Issued Jul 2025 • Valid until Jul 2028</div>
               </div>
               
-              <div class="cert-category">
-                <h4 class="cert-category-title">Specialized Training</h4>
-                <div class="cert-list">
-                  <div class="cert-card">
-                    <div class="cert-header">
-                      <span class="cert-icon">🧠</span>
-                      <div class="cert-info">
-                        <span class="cert-name">Active Defense and Cyber Deception</span>
-                        <span class="cert-date">Antisyphon Training • Issued Jun 2025</span>
-                      </div>
-                    </div>
-                    <p class="cert-description">
-                      Advanced course in proactive defense strategies, including honeypots, canaries, and deception techniques. 
-                      Equips me to mislead and frustrate adversaries while adopting threat-informed defense postures.
-                    </p>
-                  </div>
-                </div>
+              <div class="cert-item">
+                <span class="cert-icon">🧠</span>
+                <span class="cert-name">Active Defense and Cyber Deception</span>
+                <div class="cert-date">Antisyphon Training • Issued Jun 2025</div>
               </div>
               
-              <div class="cert-category">
-                <h4 class="cert-category-title">Networking & Fundamentals</h4>
-                <div class="cert-list">
-                  <div class="cert-card">
-                    <div class="cert-header">
-                      <span class="cert-icon">🌐</span>
-                      <div class="cert-info">
-                        <span class="cert-name">Networking Basics</span>
-                        <span class="cert-date">Cisco • Issued Jun 2025</span>
-                      </div>
-                    </div>
-                    <p class="cert-description">
-                      Solid understanding of networking fundamentals including IP addressing, protocols, 
-                      OSI model, and routing/switching basics.
-                    </p>
-                  </div>
-                  
-                  <div class="cert-card">
-                    <div class="cert-header">
-                      <span class="cert-icon">🛜</span>
-                      <div class="cert-info">
-                        <span class="cert-name">Networking and Cybersecurity</span>
-                        <span class="cert-date">UC Davis • Issued Jan 2023</span>
-                      </div>
-                    </div>
-                    <p class="cert-description">
-                      Structured academic program covering theoretical and practical training in computer networking 
-                      and cybersecurity fundamentals, including firewalls, risk management, and digital forensics.
-                    </p>
-                  </div>
-                </div>
+              <div class="cert-item">
+                <span class="cert-icon">🌐</span>
+                <span class="cert-name">Networking Basics</span>
+                <div class="cert-date">Cisco • Issued Jun 2025</div>
               </div>
               
-              <div class="cert-category">
-                <h4 class="cert-category-title">SIEM & Data Processing</h4>
-                <div class="cert-list">
-                  <div class="cert-card">
-                    <div class="cert-header">
-                      <span class="cert-icon">🧩</span>
-                      <div class="cert-info">
-                        <span class="cert-name">Chronicle SIEMS Fundamentals</span>
-                        <span class="cert-date">Google • Issued Feb 2025</span>
-                      </div>
-                    </div>
-                    <p class="cert-description">
-                      Skills in using Google Chronicle for high-scale event ingestion and threat detection. 
-                      Trained in log analysis, rule writing, and detection mechanisms for scalable SOC operations.
-                    </p>
-                  </div>
-                  
-                  <div class="cert-card">
-                    <div class="cert-header">
-                      <span class="cert-icon">🔧</span>
-                      <div class="cert-info">
-                        <span class="cert-name">Cribl Certified User</span>
-                        <span class="cert-date">Issued Jan 2025 • Expires Jan 2028</span>
-                      </div>
-                    </div>
-                    <p class="cert-description">
-                      Validates ability to use Cribl Stream to route, reduce, enrich, and format data. 
-                      Process observability data efficiently while reducing costs and improving data usefulness.
-                    </p>
-                  </div>
-                  
-                  <div class="cert-card">
-                    <div class="cert-header">
-                      <span class="cert-icon">🛠️</span>
-                      <div class="cert-info">
-                        <span class="cert-name">Level 2: Cribl Certified Admin - Stream</span>
-                        <span class="cert-date">Issued Jun 2025 • Expires Jun 2028</span>
-                      </div>
-                    </div>
-                    <p class="cert-description">
-                      Advanced Cribl certification showing proficiency in administrating Cribl Stream environments at scale. 
-                      Includes building pipelines, managing distributed workers, and implementing security best practices.
-                    </p>
-                  </div>
-                </div>
+              <div class="cert-item">
+                <span class="cert-icon">🧩</span>
+                <span class="cert-name">Chronicle SIEMS Fundamentals</span>
+                <div class="cert-date">Google • Issued Feb 2025</div>
+              </div>
+              
+              <div class="cert-item">
+                <span class="cert-icon">🛜</span>
+                <span class="cert-name">Networking and Cybersecurity</span>
+                <div class="cert-date">UC Davis • Issued Jan 2023</div>
+              </div>
+              
+              <div class="cert-item">
+                <span class="cert-icon">🔧</span>
+                <span class="cert-name">Cribl Certified User</span>
+                <div class="cert-date">Issued Jan 2025 • Expires Jan 2028</div>
+              </div>
+              
+              <div class="cert-item">
+                <span class="cert-icon">🛠️</span>
+                <span class="cert-name">Level 2: Cribl Certified Admin - Stream</span>
+                <div class="cert-date">Issued Jun 2025 • Expires Jun 2028</div>
               </div>
             </div>
           </div>
