@@ -90,34 +90,124 @@ export function renderSkills() {
               <div class="category-icon">🏆</div>
               <h3>Certifications & Training</h3>
             </div>
-            <div class="skills-list">
-              <div class="skill-item">
-                <span class="skill-name">🛡️ CompTIA Security+ (Issued Jul 2025)</span>
-                <div class="skill-description">This globally recognized certification demonstrates foundational knowledge in cybersecurity. It proves my ability to assess security posture, monitor and secure hybrid environments, understand applicable laws and policies, and respond to incidents. Having passed this exam, I can confidently secure systems and manage risks in real-world IT environments. This cert is valid through July 2028.</div>
+            <div class="certifications-grid">
+              <div class="cert-category">
+                <h4 class="cert-category-title">Core Security Certifications</h4>
+                <div class="cert-list">
+                  <div class="cert-card">
+                    <div class="cert-header">
+                      <span class="cert-icon">🛡️</span>
+                      <div class="cert-info">
+                        <span class="cert-name">CompTIA Security+</span>
+                        <span class="cert-date">Issued Jul 2025 • Valid until Jul 2028</span>
+                      </div>
+                    </div>
+                    <p class="cert-description">
+                      This globally recognized certification demonstrates foundational knowledge in cybersecurity. 
+                      It proves my ability to assess security posture, monitor and secure hybrid environments, 
+                      understand applicable laws and policies, and respond to incidents.
+                    </p>
+                  </div>
+                </div>
               </div>
-              <div class="skill-item">
-                <span class="skill-name">🧠 Active Defense and Cyber Deception (Antisyphon Training, Issued Jun 2025)</span>
-                <div class="skill-description">This course dives into proactive defense strategies, including honeypots, canaries, and deception techniques. It equips me to not only detect intrusions but also to mislead and frustrate adversaries. It's particularly useful for organizations looking to go beyond reactive security and adopt a threat-informed defense posture.</div>
+              
+              <div class="cert-category">
+                <h4 class="cert-category-title">Specialized Training</h4>
+                <div class="cert-list">
+                  <div class="cert-card">
+                    <div class="cert-header">
+                      <span class="cert-icon">🧠</span>
+                      <div class="cert-info">
+                        <span class="cert-name">Active Defense and Cyber Deception</span>
+                        <span class="cert-date">Antisyphon Training • Issued Jun 2025</span>
+                      </div>
+                    </div>
+                    <p class="cert-description">
+                      Advanced course in proactive defense strategies, including honeypots, canaries, and deception techniques. 
+                      Equips me to mislead and frustrate adversaries while adopting threat-informed defense postures.
+                    </p>
+                  </div>
+                </div>
               </div>
-              <div class="skill-item">
-                <span class="skill-name">🌐 Networking Basics (Cisco, Issued Jun 2025)</span>
-                <div class="skill-description">This credential affirms a solid understanding of networking fundamentals such as IP addressing, protocols, OSI model, and routing/switching basics. It's ideal for building a strong foundation in how data moves across the internet and corporate networks.</div>
+              
+              <div class="cert-category">
+                <h4 class="cert-category-title">Networking & Fundamentals</h4>
+                <div class="cert-list">
+                  <div class="cert-card">
+                    <div class="cert-header">
+                      <span class="cert-icon">🌐</span>
+                      <div class="cert-info">
+                        <span class="cert-name">Networking Basics</span>
+                        <span class="cert-date">Cisco • Issued Jun 2025</span>
+                      </div>
+                    </div>
+                    <p class="cert-description">
+                      Solid understanding of networking fundamentals including IP addressing, protocols, 
+                      OSI model, and routing/switching basics.
+                    </p>
+                  </div>
+                  
+                  <div class="cert-card">
+                    <div class="cert-header">
+                      <span class="cert-icon">🛜</span>
+                      <div class="cert-info">
+                        <span class="cert-name">Networking and Cybersecurity</span>
+                        <span class="cert-date">UC Davis • Issued Jan 2023</span>
+                      </div>
+                    </div>
+                    <p class="cert-description">
+                      Structured academic program covering theoretical and practical training in computer networking 
+                      and cybersecurity fundamentals, including firewalls, risk management, and digital forensics.
+                    </p>
+                  </div>
+                </div>
               </div>
-              <div class="skill-item">
-                <span class="skill-name">🧩 Chronicle SIEMS Fundamentals (Google, Issued Feb 2025)</span>
-                <div class="skill-description">Demonstrates my skills in using Google Chronicle, a next-gen SIEM tool designed for high-scale event ingestion and threat detection. I'm trained in log analysis, rule writing, and understanding detection mechanisms using Chronicle's platform. This is essential for scalable SOC operations.</div>
-              </div>
-              <div class="skill-item">
-                <span class="skill-name">🛜 Networking and Cybersecurity (UC Davis, Issued Jan 2023)</span>
-                <div class="skill-description">A structured academic program that provided both theoretical and practical training in computer networking and cybersecurity fundamentals. Covered areas include firewalls, network security controls, risk management, and digital forensics. It's a strong indicator of both my academic and applied understanding.</div>
-              </div>
-              <div class="skill-item">
-                <span class="skill-name">🔧 Cribl Certified User (Issued Jan 2025, Expires Jan 2028)</span>
-                <div class="skill-description">This certification validates my ability to use Cribl Stream to route, reduce, enrich, and format data. I understand how to process observability data efficiently before sending it to various destinations, reducing costs and improving data usefulness.</div>
-              </div>
-              <div class="skill-item">
-                <span class="skill-name">🛠️ Level 2: Cribl Certified Admin - Stream (Issued Jun 2025, Expires Jun 2028)</span>
-                <div class="skill-description">This advanced Cribl certification shows my proficiency in administrating Cribl Stream environments at scale. It includes building pipelines, managing distributed workers, implementing security best practices, and optimizing performance for large-scale data processing pipelines.</div>
+              
+              <div class="cert-category">
+                <h4 class="cert-category-title">SIEM & Data Processing</h4>
+                <div class="cert-list">
+                  <div class="cert-card">
+                    <div class="cert-header">
+                      <span class="cert-icon">🧩</span>
+                      <div class="cert-info">
+                        <span class="cert-name">Chronicle SIEMS Fundamentals</span>
+                        <span class="cert-date">Google • Issued Feb 2025</span>
+                      </div>
+                    </div>
+                    <p class="cert-description">
+                      Skills in using Google Chronicle for high-scale event ingestion and threat detection. 
+                      Trained in log analysis, rule writing, and detection mechanisms for scalable SOC operations.
+                    </p>
+                  </div>
+                  
+                  <div class="cert-card">
+                    <div class="cert-header">
+                      <span class="cert-icon">🔧</span>
+                      <div class="cert-info">
+                        <span class="cert-name">Cribl Certified User</span>
+                        <span class="cert-date">Issued Jan 2025 • Expires Jan 2028</span>
+                      </div>
+                    </div>
+                    <p class="cert-description">
+                      Validates ability to use Cribl Stream to route, reduce, enrich, and format data. 
+                      Process observability data efficiently while reducing costs and improving data usefulness.
+                    </p>
+                  </div>
+                  
+                  <div class="cert-card">
+                    <div class="cert-header">
+                      <span class="cert-icon">🛠️</span>
+                      <div class="cert-info">
+                        <span class="cert-name">Level 2: Cribl Certified Admin - Stream</span>
+                        <span class="cert-date">Issued Jun 2025 • Expires Jun 2028</span>
+                      </div>
+                    </div>
+                    <p class="cert-description">
+                      Advanced Cribl certification showing proficiency in administrating Cribl Stream environments at scale. 
+                      Includes building pipelines, managing distributed workers, and implementing security best practices.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
