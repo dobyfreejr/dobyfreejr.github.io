@@ -872,7 +872,8 @@ main {
 /* Certifications Grid */
 .certifications-grid {
   display: grid;
-  gap: var(--space-8);
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: var(--space-6);
 }
 
 .cert-category {
@@ -894,14 +895,14 @@ main {
 .cert-list {
   display: flex;
   flex-direction: column;
-  gap: var(--space-4);
+  gap: var(--space-3);
 }
 
 .cert-card {
   background: rgba(255, 255, 255, 0.03);
   border: 1px solid var(--border-secondary);
   border-radius: var(--radius-md);
-  padding: var(--space-4);
+  padding: var(--space-3);
   transition: all var(--transition-normal);
 }
 
@@ -914,12 +915,12 @@ main {
 .cert-header {
   display: flex;
   align-items: flex-start;
-  gap: var(--space-3);
-  margin-bottom: var(--space-3);
+  gap: var(--space-2);
+  margin-bottom: var(--space-2);
 }
 
 .cert-icon {
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-lg);
   flex-shrink: 0;
 }
 
@@ -929,23 +930,29 @@ main {
 
 .cert-name {
   display: block;
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-sm);
   font-weight: 600;
   color: var(--text-primary);
   margin-bottom: var(--space-1);
 }
 
 .cert-date {
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-xs);
   color: var(--text-tertiary);
   font-weight: 500;
 }
 
 .cert-description {
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-xs);
   color: var(--text-secondary);
   line-height: var(--line-height-relaxed);
   margin: 0;
+}
+
+@media (max-width: 768px) {
+  .certifications-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Accomplishments */
