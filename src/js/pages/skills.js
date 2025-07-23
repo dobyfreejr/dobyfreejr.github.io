@@ -62,75 +62,61 @@ export function renderSkills() {
           
           <div class="skill-category">
             <div class="category-header">
-              <div class="category-icon">⚙️</div>
-              <h3>Automation & Development</h3>
-            </div>
             <div class="skills-list">
               <div class="skill-item">
-                <span class="skill-name">Scripting</span>
-                <div class="skill-tools">Python, Bash, PowerShell</div>
-              </div>
-              <div class="skill-item">
-                <span class="skill-name">API Integration</span>
-                <div class="skill-tools">VirusTotal, WHOIS, Threat Intel</div>
-              </div>
-              <div class="skill-item">
-                <span class="skill-name">Workflow Automation</span>
-                <div class="skill-tools">Tines, SOAR Platforms</div>
-              </div>
-              <div class="skill-item">
-                <span class="skill-name">Infrastructure</span>
-                <div class="skill-tools">Linux, Windows, Cloud (GCP, Azure)</div>
+                <span class="skill-name">CompTIA Security+</span>
+                <div class="skill-tools">Issued Jul 2025 • Valid until Jul 2028</div>
               </div>
             </div>
           </div>
           
           <div class="skill-category">
             <div class="category-header">
-              <div class="category-icon">🏆</div>
-              <h3>Certifications & Training</h3>
+              <div class="category-icon">🧠</div>
+              <h3>Specialized Training</h3>
             </div>
-            <div class="certifications-grid">
-              <div class="cert-item">
-                <span class="cert-icon">🛡️</span>
-                <span class="cert-name">CompTIA Security+</span>
-                <div class="cert-date">Issued Jul 2025 • Valid until Jul 2028</div>
+            <div class="skills-list">
+              <div class="skill-item">
+                <span class="skill-name">Active Defense and Cyber Deception</span>
+                <div class="skill-tools">Antisyphon Training • Issued Jun 2025</div>
               </div>
-              
-              <div class="cert-item">
-                <span class="cert-icon">🧠</span>
-                <span class="cert-name">Active Defense and Cyber Deception</span>
-                <div class="cert-date">Antisyphon Training • Issued Jun 2025</div>
+            </div>
+          </div>
+          
+          <div class="skill-category">
+            <div class="category-header">
+              <div class="category-icon">🌐</div>
+              <h3>Networking & Fundamentals</h3>
+            </div>
+            <div class="skills-list">
+              <div class="skill-item">
+                <span class="skill-name">Networking Basics</span>
+                <div class="skill-tools">Cisco • Issued Jun 2025</div>
               </div>
-              
-              <div class="cert-item">
-                <span class="cert-icon">🌐</span>
-                <span class="cert-name">Networking Basics</span>
-                <div class="cert-date">Cisco • Issued Jun 2025</div>
+              <div class="skill-item">
+                <span class="skill-name">Networking and Cybersecurity</span>
+                <div class="skill-tools">UC Davis • Issued Jan 2023</div>
               </div>
-              
-              <div class="cert-item">
-                <span class="cert-icon">🧩</span>
-                <span class="cert-name">Chronicle SIEMS Fundamentals</span>
-                <div class="cert-date">Google • Issued Feb 2025</div>
+            </div>
+          </div>
+          
+          <div class="skill-category">
+            <div class="category-header">
+              <div class="category-icon">🔧</div>
+              <h3>SIEM & Data Processing</h3>
+            </div>
+            <div class="skills-list">
+              <div class="skill-item">
+                <span class="skill-name">Chronicle SIEMS Fundamentals</span>
+                <div class="skill-tools">Google • Issued Feb 2025</div>
               </div>
-              
-              <div class="cert-item">
-                <span class="cert-icon">🛜</span>
-                <span class="cert-name">Networking and Cybersecurity</span>
-                <div class="cert-date">UC Davis • Issued Jan 2023</div>
+              <div class="skill-item">
+                <span class="skill-name">Cribl Certified User</span>
+                <div class="skill-tools">Issued Jan 2025 • Expires Jan 2028</div>
               </div>
-              
-              <div class="cert-item">
-                <span class="cert-icon">🔧</span>
-                <span class="cert-name">Cribl Certified User</span>
-                <div class="cert-date">Issued Jan 2025 • Expires Jan 2028</div>
-              </div>
-              
-              <div class="cert-item">
-                <span class="cert-icon">🛠️</span>
-                <span class="cert-name">Level 2: Cribl Certified Admin - Stream</span>
-                <div class="cert-date">Issued Jun 2025 • Expires Jun 2028</div>
+              <div class="skill-item">
+                <span class="skill-name">Level 2: Cribl Certified Admin - Stream</span>
+                <div class="skill-tools">Issued Jun 2025 • Expires Jun 2028</div>
               </div>
             </div>
           </div>
